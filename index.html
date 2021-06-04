@@ -11,7 +11,19 @@ body {
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+ul {
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
 .p1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -19,8 +31,26 @@ body {
 </head> 
 <body> 
 <p><h1> Hunter Seitz's Personal Page</h1>
-<h3> A cybersecurity expert and a film buff.</h3></p>
-<li>
-
+<h3>Cybersecurity expert and a film buff.</h3></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<ul class="dashed">
+<li> 
+    Cool Stuff
 </li>
+<li>
+    Film
+</li>
+<li>
+    Repository
+</li>
+<li>
+    Digest
+</li>
+</ul>
+
 </body> 
