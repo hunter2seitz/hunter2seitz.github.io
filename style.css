@@ -2,6 +2,8 @@
 body {
   background-color: black; 
   color: black;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 ul {
@@ -47,6 +49,7 @@ footer{
     width: 100%; 
 
 }
+
 .p1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
