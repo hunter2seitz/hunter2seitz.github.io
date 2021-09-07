@@ -1,10 +1,12 @@
 
 body {
   background-color: black; 
-  color: black;
-  overflow-y: hidden; /* Hide vertical scrollbar */
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 ul {
   margin: 0px 50;
