@@ -4,6 +4,7 @@ body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-color: white; 
 }
 body::-webkit-scrollbar {
   display: none;
@@ -54,4 +55,5 @@ footer{
 
 .p1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-color: white; 
 }
