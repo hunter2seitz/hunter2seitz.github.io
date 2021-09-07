@@ -9,6 +9,10 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+h1 { 
+  color: white; 
+}
+
 ul {
   margin: 0px 50;
     line-height: 3;
