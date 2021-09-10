@@ -1,9 +1,20 @@
 
 body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: black; 
 }
+body::-webkit-scrollbar {
+  display: none;
+}
+h1 { 
+  color: white; 
+}
 
+h2 {
+  color: white; 
+)
 
 ul {
   margin: 0px 50;
