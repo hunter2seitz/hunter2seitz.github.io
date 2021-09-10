@@ -3,7 +3,7 @@ body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: white; 
+  background-color: black; 
 }
 body::-webkit-scrollbar {
   display: none;
