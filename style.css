@@ -28,17 +28,17 @@ ul.dashed > li:before {
 }
 
 a:link{
-    color:white; 
+    color: black; 
     text-decoration: none;
 }
 a:visited {
-    color: white; 
+    color: black; 
 }
 a:hover{
-    color: white;
+    color: black;
 }
 a:active{
-    color: white; 
+    color: black; 
 }
 br {
     line-height: 100%;
