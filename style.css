@@ -2,12 +2,16 @@
 body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Arial Narrow', Arial, sans-serif;
   color: black; 
 
 }
 body::-webkit-scrollbar {
   display: none;
+}
+
+p {
+  text-align: center; 
 }
 
 ul {
