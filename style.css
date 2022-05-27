@@ -10,7 +10,7 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-p {
+h1 {
   text-align: center; 
 }
 
